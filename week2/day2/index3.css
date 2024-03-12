@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#first_div{
+    border: 5px solid purple;
+    background-color: rgb(108, 70, 144);
+    color: black;
+    padding:20px;
+}
+#second_div{
+    border: 5px solid purple;
+    background-color: rgb(108, 70, 144);
+    color: black;
+    padding: 20px;
+}
+
+a:hover,li:hover{
+    color: wheat;
+    text-transform: uppercase;
+}
+

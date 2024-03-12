@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#qirmizi_qutu{
+    border: 5px solid pink;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    background-color:brown;
+}
+#mavi_qutu{
+    border: 5px solid purple;
+    width: 100%;
+    height: 50px;
+    background-color:blue;
+    
+}
+#ifadenin_rengi{
+    color: white;
+}
