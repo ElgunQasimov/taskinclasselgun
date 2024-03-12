@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    width: 1000px;
+    height: 850px;
+    background-color: gray;
+    margin: 50px auto;
+    padding-left: 300;
+    padding-top: 200px;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+.second{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+.third{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(152, 154, 152);
+    text-align: center;
+    border-radius: 5px;
+    color: blue;
+}
+.duyme{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.duyme:hover{
+    background-color: blue;
+    color: white;
+}
+h3{
+    color: grey;
+}
