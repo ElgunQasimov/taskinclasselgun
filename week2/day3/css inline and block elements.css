@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.white{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    margin: 50px auto;
+    box-shadow: 25px black;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.gray{
+    width: 880px;
+    height: 480px;
+    background-color: gray;
+    padding-left: 45px;
+    padding-top: 25px;
+
+}
+.title{
+    width: 600px;
+    height: 50px;
+    background-color: gray;
+    border: 3px solid blue;
+    margin-bottom: 100px;
+}
+h1{
+color: blue;
+}
+.all_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 800px;
+    height: 250px;
+}
+.card{
+    width: 280px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+}
+.main{
+    margin-left: 120px;
+    margin-top: 15px;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bir{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    margin: 40px auto;
+    box-shadow: 5px gray;
+    padding-left: 9px;
+    padding-top: 9px;
+    
+}
+.iki{
+    width: 880px;
+    height: 480px;
+    background-color: grey;
+    padding-left: 10px;
+    padding-top: 10px;
+   
+}
+.uc{
+    width: 860px;
+    height: 460px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231102/pngtree-soft-toned-watercolor-backdrop-with-delicate-colors-and-textured-finish-image_13765402.png);
+    padding: 30px;
+}
+.yazilar{
+    width: 400px;
+    height: 400px;
+   text-align: center;
+    margin: auto;
+    
+}
+#button{
+    width: 100px;
+    height: 25px;
+   border-radius: 5px;
+   background-color: red;
+   margin-left: 180px;
+}
+.main{
+    margin: 0 10px;
+}
+#first{
+    font-family: cursive;
+}
+#second{
+    font-family: fantasy;
+}
+#third{
+    font-family: monospace;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 500ms;
+}
