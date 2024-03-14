@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.out_box{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 40px auto;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.main_box{
+    width: 960px;
+    height: 460px;
+    background-color: rgb(156, 222, 171);
+    border-radius: 10px;
+    padding-left: 18%;
+    padding-top: 3%;
+    border: 10px solid red;
+}
+.in_box{
+    width: 600px;
+    height: 400px;
+    background-color:rgb(212, 159, 60) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.card{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(99, 4, 99);
+    border: 10px 5px black;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    padding: 7%;
+    color: white;
+}
+.moveable{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+}

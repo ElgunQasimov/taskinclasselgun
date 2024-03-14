@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.out_box{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 40px auto;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.main_box{
+    width: 960px;
+    height: 460px;
+    background-color: rgb(156, 222, 171);
+    border-radius: 10px;
+    padding-left: 18%;
+    border: 3px solid rgb(0, 0, 0);
+    position: relative;
+}
+.in_box{
+    width: 600px;
+    height: 455px;
+    background-color:rgb(212, 159, 60) ;
+    border-radius: 10px;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+.card{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(99, 4, 99);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding-top:10px ;
+}
+.moveable{
+position: absolute;
+right:0px;
+}
