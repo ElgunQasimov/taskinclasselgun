@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(137, 154, 159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+    color: black;
+}
+.non-moveable-list ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.basket{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.title-of-main-box{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(57, 49, 49);
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    font-size: 30px;
+}
+.all_cards{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.card_image_size{
+    width: 298px;
+    height: 150px;
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+    font-size: 35px;
+    border-top-right-radius: 10px ;
+    border-top-left-radius: 10px ;
+    padding-top: 55px;
+}
+.purchase{
+    text-align: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+button{
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+span{
+    color: rgb(186, 186, 31);
+}
+.copyright{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(57, 49, 49);
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+}
